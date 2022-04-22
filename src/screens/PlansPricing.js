@@ -24,9 +24,7 @@ export default function PlansPricing(){
                     One of three columns
                 </div>
             </div>
-        </div>
-            
+        </div> 
         </>
-    
     );
 }
