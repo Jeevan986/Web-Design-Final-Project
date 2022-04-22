@@ -18,6 +18,11 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
     gap: 2rem;
     justify-content: center;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
 }
 
 .card {
@@ -30,10 +35,6 @@ body {
     cursor: pointer;
     transition: transform 200ms ease-in;
     margin: 0;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 
 .card_image {
@@ -64,8 +65,17 @@ body {
 }
 
 /* Maybe not needed cuz it kinda glitchy? */
-:hover {
-    transform: scale(1.01);
+:hover .card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px #e1e5ee;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    margin: 0;
+    transform: scale(1.02);
 }
 
 :hover .card_btn {
