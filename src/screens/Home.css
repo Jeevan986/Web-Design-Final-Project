@@ -33,22 +33,29 @@
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
+    color: white;
+    background-color:transparent;
     text-align: center;
     cursor: pointer;
 }
 
 .contact_button:hover{
-    background-color: #555;
-    color: white;
+    font-size: 20px;
+    background-color: transparent;
 }
-
+.amenities{
+    padding: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.amenities h1{
+    font-weight: bold;
+    color: grey;
+}
 .about_us_text{
     padding-top: 140px;
     padding-left: 15px;
     padding-right: 15px;
-    width:41%;
+    width:43%;
     background-color: #7c746c;
     color: white;
 }
@@ -66,3 +73,11 @@
 /*
 kjhdkahdl
 */
+.contact_us{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-top: 15px;
+    background-color: #7c746c;
+    color: white;
+}
