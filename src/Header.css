@@ -8,6 +8,7 @@
     padding-bottom: 10px;
     width: 100%;
     z-index: 999;
+    background-color: white;
 }
 
 .header_left{
@@ -16,7 +17,7 @@
 
 .header_left > img{
     object-fit: contain;
-    height: 60px;
+    height: 70px;
 }
 
 .header_right{
