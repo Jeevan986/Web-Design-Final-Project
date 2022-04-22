@@ -6,7 +6,7 @@ export default function Reserve(){
         <div className="wrapper">
             <Card 
             img="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGluZyUyMHBvbmd8ZW58MHx8MHx8&w=1000&q=80"
-            title="Classes"
+            title="Private Lesson"
             desc="$100 per hour"
             />
 
