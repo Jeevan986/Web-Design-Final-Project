@@ -1,22 +1,47 @@
-.container {
-    width: 100%;
-    height: 500px;
-    text-align: center;  
-    font-family: 'Times New Roman', Times, serif; 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.pricing-title {
+    padding: 2%;
 }
 
-.col-sm {
-    width: 30%;
-    border: 2px solid red;
-    float: left;
-    margin: 10px;
-}
-.money {
-    font-size: 40px;
-}  
-
-h2 {
-    margin: 5px;
+.wrapper{
+    font-family: 'Roboto', sans-serif;
 }
 
- 
+.up-box h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.up-box{
+    border: 1px solid #808080;
+    cursor: pointer;
+}
+
+.down-box{
+    border: 1px solid #808080;
+    height: 300px;
+}
+
+.down-box ul{
+    justify-items: center;
+    margin-right: 10%;
+}
+
+.up-box button {
+    padding: 1% 30% 1% 30%;
+    background-color: #A9A9A9;
+    color: rgb(16, 2, 2);
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.up-box:hover {
+    background-color: antiquewhite;
+}
+
+.up-box button:hover {
+    color: rgb(253, 253, 253);
+    background-color: rgb(146, 28, 113);
+}
