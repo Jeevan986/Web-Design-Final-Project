@@ -16,6 +16,8 @@ function Form() {
         
         setIsPending(true);
 
+        //this the contact_message object has to be stored in the database
+        //has to be done between setIsPending(true) and setIsPending(False)
         console.log("the message has been submitted!");
 
         setIsPending(false)
@@ -25,6 +27,8 @@ function Form() {
         setEmail("");
         setSubject("");
         setMessage("");
+
+        alert("Your message has been submitted!")
     }
 
     return (
