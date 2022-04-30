@@ -9,6 +9,28 @@
     padding: 1%;
 }
 
-.postBreak {
-    margin-top: 17%;
+.postBox {
+    overflow: hidden;
+    box-shadow: 0 2px 20px #e1e5ee;
+    border-radius: 0.2rem;
+    margin-bottom: 1.5%; 
+}
+
+.postTeamLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.postTeamName {
+    text-align: center;
+}
+
+.postScore{
+    padding-top: 30%;
+}
+
+.postDash {
+    padding-top: 11.5%;
+    padding-left: 35%
 }
