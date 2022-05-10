@@ -6,7 +6,6 @@ import ping_pong from '../images/ping_pong.jpg';
 import gym from '../images/gym.jpg';
 import swimmingpool from '../images/swimming-pool.jpg';
 import { useJsApiLoader, GoogleMap, Marker } from '@react-google-maps/api'
-import { width } from "@mui/system";
 
 const MapCenter = { lat: 40.6306668, lng: -73.9687654 }
 
