@@ -4,6 +4,10 @@
     padding: 2%;
 }
 
+.content {
+    margin-top: -5%;
+}
+
 .wrapper{
     font-family: 'Roboto', sans-serif;
 }

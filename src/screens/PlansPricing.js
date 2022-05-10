@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function PlansPricing() {
     const listItems1 = ["6 classes"]
-    const listItems2 = ["3 individaul sessions"]
+    const listItems2 = ["3 individual sessions"]
     const listItems3 = ["Online resources"]
     const listItems4 = [ "1 Guest Pass"]
     const listItems5 = [ "Free WiFi"]
