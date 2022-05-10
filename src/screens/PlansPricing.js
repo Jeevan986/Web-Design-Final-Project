@@ -1,6 +1,6 @@
 import React from "react";
-import './PlansPricing.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './PlansPricing.css';
 
 export default function PlansPricing() {
     const listItems1 = ["6 classes"]
@@ -15,7 +15,7 @@ export default function PlansPricing() {
             <Card3
             title = "Beginner"
             h1= "$15"
-            para = "Explore the basiscs with this introductory courses"
+            para = "Explore the basics with this introductory courses"
             i1={listItems1}
             i2={listItems2}
             i3={listItems3}
@@ -23,7 +23,7 @@ export default function PlansPricing() {
 
             <Card6
             title = "Pro"
-            h1= "$10"
+            h1= "$30"
             para = "Every month Perfect for creatives, freelancers, and experienced"
             i1={listItems1}
             i2={listItems2}
@@ -35,7 +35,7 @@ export default function PlansPricing() {
 
             <Card7
             title="VIP"
-            h1="$10"
+            h1="$50"
             para="Every month Unlimited access to professional"
             i1={listItems1}
             i2={listItems2}
